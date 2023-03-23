@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using labyrinth.Logic;
+
+var maze = new MyMaze(30, 100);
+Console.WriteLine(maze);
